@@ -1,0 +1,16 @@
+{
+  "name": "multi-zone-with-server",
+  "version": "1.0.0",
+  "scripts": {
+    "admin": "cd admin && npm run admin-start",
+    "designer": "cd designer && npm run designer-start",
+    "proxy": "micro-proxy -r rules-dev.json"
+  },
+  "dependencies": {
+    "micro-proxy": "^1.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "license": "ISC"
+}

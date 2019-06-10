@@ -1,0 +1,17 @@
+{
+  "name": "multi-zone-with-server",
+  "version": "1.0.0",
+  "scripts": {
+    "designer-start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
